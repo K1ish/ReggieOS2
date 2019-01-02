@@ -1,15 +1,25 @@
-Shrine
+REGGIEOS2
 ======
 
 ![Screenshot](http://imgur.com/1yYsUHI.png)
 
-Shrine is a TempleOS distribution that aims to be more modern & approachable.
+ReggieOS is a TempleOS distribution that aims to be more modern & approachable.
 
+ReggieOS HAS the following:
+- 32 bit color depth WIP(no more 16 colors)
+- Soundcard support with high bitrate WIP
+- High resolution monitor WIP (limited to video card max res)
+- 64 bit only design. Allows use of new instructions for maximum efficiency (Most processors past or around 2007 are 64 bit)
+- Low overhead for large clusters.
+- Runs 100% in RING 0. Can extremely increase performance.
+- Peripheral and driver support for graphics acceleration.
 Shrine aims to improve upon TempleOS in several aspects:
 - Approachability: Shrine ships with Lambda Shell, a more traditional Unix-like command interpreter
 - Connectivity: TCP/IP stack! Internet access!
 - Software access: Shrine includes a package downloader
 - Versatility: unlike stock TempleOS, Shrine requires only 64MB RAM, making it feasible for cloud micro-instances and similar setups (note: this is planned, but currently not true)
+
+RIP Terry A. Davis
 
 Software included in Shrine:
 - Mfa (minimalist file access)
@@ -70,3 +80,8 @@ Building from source
 ====================
 
 [See here](BUILDING.md)
+
+BASED OFF OF SHRINE AND TEMPLEOS. 
+
+Keep in mind this has nothing to do with unix, or linux. It runs its own kernal and is completely built from scratch.
+Also this does not include a bible because including it would increase the size by 23MB
