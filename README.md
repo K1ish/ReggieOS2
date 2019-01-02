@@ -3,6 +3,9 @@ REGGIEOS2
 
 ![Screenshot](http://imgur.com/1yYsUHI.png)
 
+ReggieOS is a very modern operating system. Unlike Windows and Linux or UNIX, it isn't built from a decades old kernal that uses 32 bit at its core. It doesn't need compatibility modes. Its kernal is from scratch. It runs at the lowest possible abstraction layer, removing overhead entirely. Uses modern x86_64 specific instructions. It doesn't need drivers. It boots up in about ~1 second on a hard drive and less on an ssd. Only 3 MB install file. Ultra efficient. 50% faster
+
+
 ReggieOS is a TempleOS distribution that aims to be more modern & approachable.
 
 ReggieOS HAS the following:
@@ -18,6 +21,11 @@ Shrine aims to improve upon TempleOS in several aspects:
 - Connectivity: TCP/IP stack! Internet access!
 - Software access: Shrine includes a package downloader
 - Versatility: unlike stock TempleOS, Shrine requires only 64MB RAM, making it feasible for cloud micro-instances and similar setups (note: this is planned, but currently not true)
+
+MORE WIP FEATURES:
+- Modern GUI that is responsive and clean.
+- Fully functioning web browser
+
 
 RIP Terry A. Davis
 
